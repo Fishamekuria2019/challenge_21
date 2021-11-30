@@ -32,6 +32,10 @@ In this section, you will create a smart contract that defines KaseiCoin as an E
     * `ERC20`
 
     * `ERC20Detailed`
+ Deployed kaiscoin contract:
+ <img width="1440" alt="Screen Shot 2021-11-20 at 10 10 57 AM" src="https://user-images.githubusercontent.com/86037647/144146644-f58c6c5b-3747-49f3-987a-53b215f2f66b.png">
+ 
+
 
     * `ERC20Mintable`
 
@@ -205,3 +209,9 @@ To enhance your KaseiCoin crowdsale with this added functionality, complete the 
 # challenge_21
 Create the KaseiCoin Token Contract , Create the KaseiCoin Crowdsale Contract , Create the KaseiCoin Deployer Contract  Deploy the Crowdsale to a Local Blockchain  Optional: Extend the Crowdsale Contract by Using OpenZeppelin
 >>>>>>> a732ff64da00e4e3ce28d670cd12105edb7c3380
+
+deployed KaseiCoin Token Contract
+<img width="1440" alt="Screen Shot 2021-11-20 at 10 54 30 AM" src="https://user-images.githubusercontent.com/86037647/144146817-ebe33576-8edd-40f7-af3e-e0806b6c4e3e.png">
+<img width="1440" alt="Screen Shot 2021-11-20 at 10 10 57 AM" src="https://user-images.githubusercontent.com/86037647/144146862-daecab28-1638-470d-b602-1bc6af18bdeb.png">
+
+
