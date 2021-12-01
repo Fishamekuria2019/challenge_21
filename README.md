@@ -181,7 +181,9 @@ To enhance your KaseiCoin crowdsale with this added functionality, complete the 
     ```
 
     > **Important** `RefundablePostDeliveryCrowdsale` itself inherits the `RefundableCrowdsale` contract, which requires a `goal` parameter. So, in addition to the others, you must call the `RefundableCrowdsale` constructor from your `KaseiCoinCrowdsale` constructor. `RefundablePostDeliveryCrowdsale` does not have its own constructor, which is why we use the `RefundableCrowdsale` constructor that it inherits.
-    >
+
+screenshpt of deployed token contract
+
     > If you forget to call the `RefundableCrowdsale` constructor, the `RefundablePostDeliveryCrowdsale` will fail. This is because it does not have its own constructor, and so it relies on the `RefundableCrowdsale` constructor.
 
 5. Next, update the `KaseiCoinCrowdsaleDeployer` contract to allow the deployment of the updated crowdsale contract. In the constructor of the deployer contract, add a new `uint` parameter called `goal` that will allow you to set the crowdsale goal.
@@ -208,7 +210,8 @@ To enhance your KaseiCoin crowdsale with this added functionality, complete the 
 =======
 # challenge_21
 Create the KaseiCoin Token Contract , Create the KaseiCoin Crowdsale Contract , Create the KaseiCoin Deployer Contract  Deploy the Crowdsale to a Local Blockchain  Optional: Extend the Crowdsale Contract by Using OpenZeppelin
->>>>>>> a732ff64da00e4e3ce28d670cd12105edb7c3380
+>>>>>>> <img width="1440" alt="Screen Shot 2021-11-20 at 10 54 30 AM" src="https://user-images.githubusercontent.com/86037647/144147185-65313747-98b1-4081-9571-16aedf029b63.png">
+a732ff64da00e4e3ce28d670cd12105edb7c3380
 
 deployed KaseiCoin Token Contract
 <img width="1440" alt="Screen Shot 2021-11-20 at 10 10 57 AM" src="https://user-images.githubusercontent.com/86037647/144146862-daecab28-1638-470d-b602-1bc6af18bdeb.png">
